@@ -6,7 +6,7 @@ This an application to test Azure Pipelines.
 
 * COMMERCEAPP
 * 1.00.0.(100)
-* git remote add origin git@github.com:web-projects/COMMERCEAPP.git
+* git remote add origin https://github.com/web-projects/COMMERCEAPP.git
 
 ### How do I get set up? ###
 
@@ -31,4 +31,4 @@ This an application to test Azure Pipelines.
 ### HISTORY ###
 
 * 20191202 - Initial repository.
-
+           - Fixed git repository location.
