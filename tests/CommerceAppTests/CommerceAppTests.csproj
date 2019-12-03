@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
+    <PackageReference Include="coverlet.collector" Version="1.0.1" />
+    <PackageReference Include="Moq" Version="4.13.1" />
+    <PackageReference Include="Ninject" Version="3.3.4" />
+    <PackageReference Include="xunit.assert" Version="2.4.1" />
+    <PackageReference Include="xunit.extensibility.core" Version="2.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\commerce\WPA.Commerce.csproj" />
+    <ProjectReference Include="..\..\src\common\dependency-injection\WPA.Common.Ninject.AspNetCore\WPA.Common.Ninject.AspNetCore.csproj" />
+    <ProjectReference Include="..\..\src\common\dependency-injection\WPA.Common.Ninject\WPA.Common.Ninject.csproj" />
+  </ItemGroup>
+
+</Project>
